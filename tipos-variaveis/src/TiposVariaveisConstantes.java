@@ -15,7 +15,7 @@ public class TiposVariaveisConstantes {
         pi = pi2;
         double resultadoPi = pi;
 
-        System.out.println(pi);
+        System.out.println(pi + " --> Resultado referente ao exemplo 1 \n");
 
         
         /*EXEMPLO 2: Maneira correta de escrever o valro de pi como onstante 
@@ -24,24 +24,29 @@ public class TiposVariaveisConstantes {
         mais nome da variável em caixa alta.*/
        
         final double VALOR_DE_PI = 3.14;
-        System.out.println(VALOR_DE_PI);
+        System.out.println(VALOR_DE_PI + "  --> Resultado referente ao exemplo 2 \n");
         
         
         //EXEMPLO 3:
-        // jeito correto de aplicar uma variavél constante// 
+        /* Jeito correto de aplicar uma variavél constante mas a mesma apresentara erro// 
+        código abaixo -->
+
          final double VALOR_DE_PI2 = 3.14; 
         
-         double valor_de_pi2 = 7.15;
+         double valor_de_pi3 = 7.15;
         
-         VALOR_DE_PI2 = valor_de_pi2; //Erro!!
-        
-         /*acima a lógica criada tende a apresentar erro, pois com VALOR_DE_PI
-         * não pode sofrer alteração de valor, nunca será possivel valor_de_pi2 e seu valor
-         * serem atribuidos a VALOR_DE_PI. 
-         */
-        double resultadoPi2 = VALOR_DE_PI2;
+         VALOR_DE_PI2 = valor_de_pi2; //Erro!!!!!!!
 
-        System.out.println(VALOR_DE_PI2);
+          double resultadoPi2 = VALOR_DE_PI2;
+
+          
+         fim de código <----
+        
+         /* Acima a lógica criada tende a apresentar erro, pois com a variável VALOR_DE_PI2
+         * não pode sofrer alteração de valor, nunca será possivel atribuir o valor_de_pi3 a variável VALOR_DE_PI2. 
+         */
+        System.out.println("O Resultado é ERRO!! no exemplo 3 que encontra-se em forma de comentário no código.\n");
+
     
 
 }
