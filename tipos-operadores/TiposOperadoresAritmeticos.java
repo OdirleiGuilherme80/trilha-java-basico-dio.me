@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class TiposOperadores {
+public class TiposOperadoresAritmeticos {
 
     public static void main(String []args){
         
@@ -11,9 +11,9 @@ public class TiposOperadores {
         double peso = 135.00;
         char sexo = 'M';
         boolean doadorOrgao = true;
-        Date dataNascimento = new Date(1980);
+        Date dataNascimento = new Date();
         
-        System.out.println(("Meu nome é " + nome+",")+(" minha idade é " + idade)+(" ,peso atualmente "+peso)+(" sou do sexo "+ sexo)+(" se sou doador de orgão? "+doadorOrgao)+(" , nascido em " + dataNascimento));
+        System.out.println("Meu nome é " + nome+","+" minha idade é " + idade+"," + "peso atualmente "+  peso);
 
 
         //Operadores aritméticos para realizar expressão matemáticas entre valores númericos
@@ -35,7 +35,7 @@ public class TiposOperadores {
 
         System.out.println(divisão);
 
-        int resto = 18 % 3;
+        int resto = 44 % 3;
 
         System.out.println(resto);
 
@@ -48,7 +48,6 @@ public class TiposOperadores {
         String nomeCompleto = "Odirlei" + " Guilherme";
 
         System.out.println(nomeCompleto);
-
     }
 }
 
