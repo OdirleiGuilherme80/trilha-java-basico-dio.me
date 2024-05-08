@@ -1,6 +1,6 @@
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        
 
         //falando sobre as variáveis primitivas:
         //byte, short, int, long, float, double,  boolean, char//
